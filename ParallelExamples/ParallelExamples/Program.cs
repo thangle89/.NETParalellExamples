@@ -30,9 +30,19 @@ namespace ParallelExamples
 
             //ParallelLinq.Run4();
             //ParallelLinq.Run1Sequential();
-                       
+
             //ConcurrentCollections.Run1QueueLock();
-            ConcurrentCollections.Run1();
+            //ConcurrentCollections.Run1();
+
+            //ThreadLocal.Run1();
+
+            //FalseSharing.Run1();
+            //FalseSharing.Run1Sequential();
+            //FalseSharing.Run1SharingFix();
+
+            OptimalParallelism.MatrixMultiply( new int[100, 100], new int[100, 100], 4);
+
+
             Console.ReadLine();
         }
     }

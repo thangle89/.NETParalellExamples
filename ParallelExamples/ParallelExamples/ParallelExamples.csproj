@@ -45,11 +45,14 @@
   <ItemGroup>
     <Compile Include="Basic.cs" />
     <Compile Include="ConcurrentCollections.cs" />
+    <Compile Include="FalseSharing.cs" />
+    <Compile Include="OptimalParallelism.cs" />
     <Compile Include="ParallelForAndForEach.cs" />
     <Compile Include="ParallelLinq.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TaskConvertFromAsync.cs" />
+    <Compile Include="ThreadLocal.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
