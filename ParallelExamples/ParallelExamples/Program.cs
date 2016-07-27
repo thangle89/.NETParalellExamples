@@ -21,9 +21,18 @@ namespace ParallelExamples
             //ParallelForAndForEach.Run1();
             //ParallelForAndForEach.Run1Sequential();
             //ParallelForAndForEach.Run2();
-            var pLinq = new ParallelLinq();
-            pLinq.Run1();
-            pLinq.Run1Sequential();
+
+            //ParallelLinq.Run1();
+            //ParallelLinq.Run1Sequential();
+            //ParallelLinq.Run2();
+            //ParallelLinq.Run2Fix();
+            //ParallelLinq.Run3();
+
+            //ParallelLinq.Run4();
+            //ParallelLinq.Run1Sequential();
+                       
+            //ConcurrentCollections.Run1QueueLock();
+            ConcurrentCollections.Run1();
             Console.ReadLine();
         }
     }

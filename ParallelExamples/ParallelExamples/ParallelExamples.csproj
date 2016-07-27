@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Basic.cs" />
+    <Compile Include="ConcurrentCollections.cs" />
     <Compile Include="ParallelForAndForEach.cs" />
     <Compile Include="ParallelLinq.cs" />
     <Compile Include="Program.cs" />
