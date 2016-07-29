@@ -66,7 +66,7 @@ namespace ParallelExamples
             watch.Start();
             var numbers = new int[1000000];
             var isPrime = new bool[numbers.Length];
-            Parallel.ForEach(Partitioner.Create(0, numbers.Length, 1024), range =>
+            Parallel.ForEach(Partitioner.Create(0, numbers.Length, 100024), range =>
             {
                 for (int i = range.Item1; i < range.Item2; i++)
                 {

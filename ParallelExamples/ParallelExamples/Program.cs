@@ -10,20 +10,20 @@ namespace ParallelExamples
     {
         static void Main(string[] args)
         {
-            //Basic.Run1();
+           // Basic.Run1();
             //Basic.Run2();
             //Basic.Run3();
-            //Basic.Run4();
-            //Basic.Run4Fix();
-
+           // Basic.Run4();
+           // Basic.Run4Fix();
+            
             //TaskConvertFromAsync.Run1();
 
-            //ParallelForAndForEach.Run1();
+           // ParallelForAndForEach.Run1();
             //ParallelForAndForEach.Run1Sequential();
             //ParallelForAndForEach.Run2();
 
-            //ParallelLinq.Run1();
-            //ParallelLinq.Run1Sequential();
+            ParallelLinq.Run1();
+            ParallelLinq.Run1Sequential();
             //ParallelLinq.Run2();
             //ParallelLinq.Run2Fix();
             //ParallelLinq.Run3();
@@ -40,7 +40,7 @@ namespace ParallelExamples
             //FalseSharing.Run1Sequential();
             //FalseSharing.Run1SharingFix();
 
-            OptimalParallelism.MatrixMultiply( new int[100, 100], new int[100, 100], 4);
+            //OptimalParallelism.MatrixMultiply( new int[100, 100], new int[100, 100], 4);
 
 
             Console.ReadLine();
